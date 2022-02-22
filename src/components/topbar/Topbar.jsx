@@ -7,7 +7,7 @@ import {useContext} from "react"
 export default function Topbar() {
 
     const {user,dispatch}=useContext(Context);
-    const pf = "http://localhost:5000/images/";
+    const pf = "https://blogsitebymanas.herokuapp.com/images/";
 
     const handlelogout=()=>{
         dispatch({type:"LOG_OUT"})

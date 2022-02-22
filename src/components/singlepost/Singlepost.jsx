@@ -10,7 +10,7 @@ export default function Singlepost() {
   const path=location.pathname.split("/")[2];
   const [post,setpost]=useState({});
   const {user}=useContext(Context)
-  const pf="http://localhost:5000/images/";
+  const pf="https://blogsitebymanas.herokuapp.com/images/";
   const [desc,setdesc]=useState("");
   const [title,settitle]=useState("");
   const [updatemode,setupdatemode]=useState("")
